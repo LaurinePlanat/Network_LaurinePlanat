@@ -3,7 +3,7 @@ Projet NETWORK
 Laurine Planat 
 DeadLine: 7th nov, 11:00 pm 
 
-A. Presentation of the program  
+    A. Presentation of the program  
 
 Main goal of the program:  
 
@@ -13,10 +13,11 @@ Each link is bidirectional, so A to B implies B to A. Furthermore, each nodes ha
 
 During this program, some of the functions throw exeptions, all of those are treated in the main file.  
 
-B. Compilation of the program  
+    B. Compilation of the program  
 
 To execute the program 
-
+	cmake .. 
+	make
 	./NetSim -n 10 -d 3 
 
 (numbers after -n and -d are just given as example. -n corresponds to nodes number, -d corresponds to mean of poisson distribution). 
