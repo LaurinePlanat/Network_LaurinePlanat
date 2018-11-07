@@ -16,8 +16,11 @@ During this program, some of the functions throw exeptions, all of those are tre
     B. Compilation of the program  
 
 To execute the program 
+
 	cmake .. 
+	
 	make
+	
 	./NetSim -n 10 -d 3 
 
 (numbers after -n and -d are just given as example. -n corresponds to nodes number, -d corresponds to mean of poisson distribution). 
